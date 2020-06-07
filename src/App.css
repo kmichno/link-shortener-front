@@ -1,0 +1,346 @@
+body {
+  background-color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#container {
+  margin: 0px auto;
+  background-color: #f1f1f1;
+}
+
+#content {
+    padding-top: 10px;
+}
+
+.no-decoration{
+  text-decoration: none !important;
+}
+
+#left-side {
+    float:left;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#left-side-inner {
+    min-height: 600px; /* IF only height - problem */
+    margin: 20px;
+}
+
+.menu-left-button {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.menu-left-button:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#right-side {
+  float: right;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#right-side-inner {
+  min-height: 600px; /* IF only height - problem */
+  margin: 20px;
+}
+
+.link-details {
+  height: 140px;
+  background-color: #f6f6f6;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.link-details .img {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin: 20px;
+}
+
+.link-details h3 {
+    padding-left: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.input-inline {
+    display: inline-block;
+    width: 378px;
+}
+
+.button-blue.all-width {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.add-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-link input.all-width {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.link-details .img-inner {
+  max-width: 180px;
+  max-height: 180px;
+  background-color: #A6A4A2;
+  margin: 0 auto;
+}
+
+.picture-apartment {
+  max-width: 140px;
+  max-height: 140px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.link-details .description-content {
+    height: 70px;
+    background-color: #fff;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.link-details .description-content h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.link-details .description-content p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+.link-details .city {
+  font-size: 14px;
+}
+
+.link-details .number-entries {
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.link-details .number-entries p {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303141;
+}
+
+.link-details .title {
+    height: 70px;
+}
+
+.link-details .title h3{
+    display: block;
+    float: left;
+}
+
+.link-details .short-url {
+  margin-right: 20px;
+    margin-top: 20px;
+    display: block;
+    float: right;
+}
+
+.link-details p.additional-info {
+  font-size: 16px;
+  margin-left: -180px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.link-details .additional-description {
+  margin-top: 20px;
+  margin-left: -180px;
+
+}
+
+.link-details .button {
+  text-align: center;
+  margin-left: 2px;
+}
+
+.link-details .place-button {
+  height: 41px;
+    margin-top: 12px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.add-link label{
+  display: block;
+}
+
+.add-link input{
+  height: 25px;
+  width: 260px;
+}
+
+.add-link textarea {
+  height: 200px;
+  width: 600px;
+}
+
+.button{
+  float: right;
+  width: 150px;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFFFCA;
+  background-color: #039cd1;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button a{
+  text-decoration: none;
+  color: #FFFFCA;
+}
+
+.button-blue {
+    box-shadow:inset 0px 1px 0px 0px #37b4da;
+    background:linear-gradient(to bottom, #04a6d3 5%, #039ad5 100%);
+    background-color:#04a6d3;
+    border-radius:3px;
+    border:1px solid #0f7996;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+.button-blue:hover {
+    background:linear-gradient(to bottom, #039ad5 5%, #04a6d3 100%);
+    background-color:#039ad5;
+}
+.button-blue:active {
+    position:relative;
+    top:1px;
+}
+
+.title-app {
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.date-select {
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    margin: 2px 2px;
+}
+
+.container-chart {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+#footer {
+  height: 40px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.clear {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+#details {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+#details tr:hover {background-color: #ddd;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #303141;
+  color: white;
+}
+
+.button-details {
+  background-color: #303141;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button-green {background-color: #00482B ;}
+.button-red {background-color: #BA0020;}
+.button-orange {background-color: #c5600e;}
+
+.bookings-confirmed {color: #008000;}
+.bookings-unconfirmed {color: #c5600e;}
+.bookings-canceled {color:  #BA0020;}
