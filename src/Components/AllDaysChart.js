@@ -139,13 +139,6 @@ class AllDaysChart extends PureComponent {
                               <div className="container-chart">
                                 <ResponsiveContainer>
                                   <BarChart margin={{ top: 5, right: 30, left: 20, bottom: 5 }} data={data}>
-                                    {/*<Bar dataKey="uv" onClick={this.handleClick}>*/}
-                                    {/*  {*/}
-                                    {/*    data.map((entry, index) => (*/}
-                                    {/*      <Cell cursor="pointer" fill={index === activeIndex ? '#82ca9d' : '#8884d8'} key={`cell-${index}`} />*/}
-                                    {/*    ))*/}
-                                    {/*  }*/}
-                                    {/*</Bar>*/}
                                     <CartesianGrid strokeDasharray="3 3"/>
                                     <XAxis name="Dzień" dataKey="day" unit="d"/>
                                     <YAxis/>
@@ -154,7 +147,6 @@ class AllDaysChart extends PureComponent {
                                     <Bar stackId="a" name="Liczba wejść" dataKey="numberOfEntries" fill="#8884d8" />
                                   </BarChart>
                                 </ResponsiveContainer>
-                                {/*<p className="content">{`Uv of "${activeItem.name}": ${activeItem.uv}`}</p>*/}
                               </div>
                             </div>
                         </div>

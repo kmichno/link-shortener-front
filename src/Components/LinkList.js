@@ -90,7 +90,6 @@ class LinkList extends Component {
     handleSubmit =
         event => {
             event.preventDefault();
-            // this.togglePopup();
             this.shortLink();
 
         }

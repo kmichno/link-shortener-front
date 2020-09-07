@@ -91,14 +91,6 @@ class EditLink extends Component {
                                             <input type="text" required id="name" name="title" value={this.state.title} onChange={(e) => this.handleChange(e)} />
                                         </div>
                                         <button className="button">Edytuj link</button>
-                                        {/*{this.state.showPopup ?*/}
-                                        {/*    <Popup*/}
-                                        {/*        text='Apartament został zedytowany'*/}
-                                        {/*        url='/admin/apartments'*/}
-                                        {/*        closePopup={this.togglePopup.bind(this)}*/}
-                                        {/*    />*/}
-                                        {/*    : null*/}
-                                        {/*}*/}
                                     </form>
                                 </div>
                             </div>

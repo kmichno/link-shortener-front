@@ -175,16 +175,6 @@ class BrowserChart extends PureComponent {
                                     </form>
                                 </div>
                               <div className="container-chart">
-                                {/*<ResponsiveContainer>*/}
-                                {/*  <BarChart margin={{ top: 5, right: 30, left: 20, bottom: 5 }} data={data}>*/}
-                                {/*    <CartesianGrid strokeDasharray="3 3"/>*/}
-                                {/*    <XAxis name="Dzień" dataKey="name" unit="d"/>*/}
-                                {/*    <YAxis/>*/}
-                                {/*    <Tooltip/>*/}
-                                {/*    <Legend />*/}
-                                {/*    <Bar stackId="a" name="Liczba wejść rano" dataKey="numberOfEntries" fill="#8884d8" />*/}
-                                {/*  </BarChart>*/}
-                                {/*</ResponsiveContainer>*/}
                                 <PieChart width={800} height={400} onMouseEnter={this.onPieEnter}>
                                   <Tooltip/>
                                   <Legend />
